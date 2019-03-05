@@ -1,9 +1,9 @@
-import Header from '../components/Header'
+import Layout from '../components/MyLayout';
+
 const Index = () => (
-    <React.Fragment>
-        <Header />
+    <Layout>
         <p>Hello Next.js</p>
-    </React.Fragment>
+    </Layout>
 )
 
 export default Index
