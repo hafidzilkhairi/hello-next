@@ -1,9 +1,7 @@
-import Link from 'next/link'
+import Header from '../components/Header'
 const Index = () => (
     <React.Fragment>
-        <Link href='/about' style={{fontSize:204}}>
-            <a>About Us</a>
-        </Link>
+        <Header />
         <p>Hello Next.js</p>
     </React.Fragment>
 )

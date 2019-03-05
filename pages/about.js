@@ -1,5 +1,8 @@
+import Header from '../components/Header'
+
 export default () => (
-    <div>
+    <React.Fragment>
+        <Header />
         <p>This is the about page</p>
-    </div>
+    </React.Fragment>
 )
